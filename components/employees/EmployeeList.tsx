@@ -32,6 +32,7 @@ const EmployeeList = () => {
 
             if(result.success)
                 setEmployees(result.data!);
+                setDeletedEmployees(result.data!);
 
         } catch (error) {
             console.log("error", error);

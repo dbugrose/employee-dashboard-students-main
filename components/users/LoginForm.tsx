@@ -45,6 +45,7 @@ const LoginForm = () => {
 
     return (
         <>
+        <form>
             <div>
                 <div className='mb-2 block'>
                     <Label
@@ -104,6 +105,7 @@ const LoginForm = () => {
                     Create one here :&#41;
                 </Link>
             </div>
+        </form>
         </>
     )
 }
